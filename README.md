@@ -9,7 +9,7 @@ The dataset consists of 155 images with brain tumor (designated here as 1) and 9
 ## Data Augmentation & Pre-processing
 Pre-process the images by normalizing their pixel values to ranging from approximately -2.12 to +2.64 as standardization for the Pretrained EfficientNet-B4 since it pretrained on ImageNet was trained with these normalization values. Data augmentation transforms or modifies each image to increase the diversity and variablility of the data which can help the model generalize better to unseen data and mitigate issues such as overfitting. The images are randomly flipped horizontally or vertically, randomly rotated and the brightness is either decreased or increased.
 
-##B uilding the CNN Model
+## Building the CNN Model
 EfficientNet uses a compound scaling method to uniformly scale all dimensions of width, depth and resolution using a compound coefficient. This increases overall model performance while taking the changeable available resources into consideration. 
 
 ## Result
